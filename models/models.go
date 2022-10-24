@@ -22,7 +22,7 @@ type User struct {
 	Order_Status    []Order					`json:"order" bson:"order"`
 }
 
-type Prodcut struct { 
+type Product struct { 
 	Product_ID		primitive.ObjectID		`bson:"_id"`
 	Product_Name	*string					`josn:"product_name"`
 	Price			*uint64					`json:"price"`
